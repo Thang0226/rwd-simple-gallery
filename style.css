@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+div.images img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 500px) {
+    div.images img {
+        width: 49%;
+    }
+}
+
+@media (min-width: 700px) {
+    div.images img {
+        width: 24.5%;
+    }
+}
